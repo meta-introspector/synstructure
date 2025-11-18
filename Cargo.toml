@@ -3,7 +3,7 @@ name = "synstructure"
 version = "0.13.2"
 authors = ["Nika Layzell <nika@thelayzells.com>"]
 edition = "2018"
-rust-version = "1.56.1"
+# rust-version = "1.56.1"
 description = "Helper methods and macros for custom derives"
 documentation = "https://docs.rs/synstructure"
 repository = "https://github.com/mystor/synstructure"
@@ -31,5 +31,5 @@ features = ["derive", "parsing", "printing", "clone-impls", "visit", "extra-trai
 # we need to publish this in order to be able to publish synstructure.
 synstructure_test_traits = { version = "0.1", path = "test_traits" }
 
-[workspace]
-members = ["test_traits", "test_suite", "test_suite/test_macros"]
+#[workspace]
+#members = ["test_traits", "test_suite", "test_suite/test_macros"]
